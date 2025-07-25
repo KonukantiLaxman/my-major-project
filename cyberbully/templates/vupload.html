@@ -1,0 +1,18 @@
+{% extends "base1.html" %}
+
+{% block title %}Video to Text Conversion{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2 class="text-center">Upload Video to Extract Text</h2>
+    <form action="{{ url_for('process_video') }}" method="POST" enctype="multipart/form-data" class="mt-4">
+        <div>
+            <input type="file" id="video" name="video" accept="video/*" required>
+        </div>  <br>
+        <button type="submit">Upload and Process</button>
+    </form>
+    <p class="{% if text == 'The content is cyberbully free.' %}safe{% else %}unsafe{% endif %}">
+        {{ text }}
+    </p>
+</div>
+{% endblock %}

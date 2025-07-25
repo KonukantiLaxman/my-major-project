@@ -1,0 +1,25 @@
+{% extends "base1.html" %}
+
+{% block title %}Text Upload{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2 class="text-center">Upload Text</h2>
+    <form action="/predict_text" method="POST">
+        <label for="language">Select Language:</label>
+        <select name="language" id="language">
+            <option value="te">Telugu</option>
+            <option value="hi">Hindi</option>
+            <option value="ta">Tamil</option>
+            <option value="en">English</option>
+        </select>
+        <br><br>
+        <textarea name="text" rows="5" cols="50" placeholder="Enter text here..."></textarea>
+        <br>
+        <button type="submit">Check Text</button>
+    </form>
+    <p class="{% if text == 'The content is cyberbully free.' %}safe{% else %}unsafe{% endif %}">
+        {{ text }}
+    </p>
+</div>
+{% endblock %}

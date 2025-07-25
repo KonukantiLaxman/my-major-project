@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyberbullying Detection</title>
+</head>
+<body>
+    <h1>Cyberbullying Detection</h1>
+    <h2>Upload Text</h2>
+    <form action="/predict_text" method="POST">
+        <textarea name="text" rows="5" cols="50" placeholder="Enter text here..."></textarea>
+        <br>
+        <button type="submit">Check Text</button>
+    </form>
+
+    <h2>Upload Image</h2>
+    <form action="/predict_image" method="POST" enctype="multipart/form-data">
+        <input type="file" name="image" accept="image/*">
+        <br>
+        <button type="submit">Upload Image</button>
+    </form>
+
+    <h2>Upload Video</h2>
+    <form action="/predict_video" method="POST" enctype="multipart/form-data">
+        <input type="file" name="video" accept="video/*">
+        <br>
+        <button type="submit">Upload Video</button>
+    </form>
+</body>
+</html>

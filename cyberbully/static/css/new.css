@@ -1,0 +1,218 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-image:url(../img/l15120241009120940.webp);
+  background-size: cover;
+  padding: 0;
+}
+    
+            header {
+        margin-left: 100px;
+        font-weight: bold;
+        font-family: Arial, sans-serif;
+        margin-top: 20px;
+        font-size: 40px;
+        color: rgb(0, 162, 255);
+        text-shadow: .5px .5px .5px red;
+    }
+    
+    
+    
+    .container-center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start; /* Adjust this to change vertical alignment */
+        height: 800px;
+        width: 100%;
+        margin-top: 10px; /* Add margin from the top */
+    }
+    nav {
+      background-color: rgba(255, 255, 255, 0.75);
+      padding: 5px 0;
+      text-align: center;
+    }
+    nav a {
+      color:black;
+      text-decoration: none;
+      margin: 0 5px;
+    }
+    .container2 {
+      margin: 200px auto;
+      width: 400px;
+      border: 1px solid #ccc;
+      padding: 5px;
+      border-radius: 5px;
+      background-color: #f3f3f3c5;
+    }
+    .container {
+      margin: 50px auto;
+      width: 300px;
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-radius: 5px;
+      background-color:  #f3f3f3c5;
+    }
+    .container3{
+      margin: 200px auto;
+      width: 400px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      border-radius: 5px;
+      background-color: #f3f3f3c5;
+    }  
+    
+    .container7{
+      margin: 200px auto;
+      width: 700px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      border-radius: 5px;
+      background-color: #f3f3f3c5;
+    } 
+    .container4{
+      margin: 200px auto;
+      width: 500px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      border-radius: 5px;
+      background-color: #f3f3f3c5;
+    } 
+    input[type="text"], input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      box-sizing: border-box;
+    }
+    input[type="email"], input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      box-sizing: border-box;
+    }
+    input[type="submit"] {
+      width: 100%;
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background-color: #555;
+    }
+    
+    h2{
+        color: rgb(200, 87, 31);
+    }
+    
+    
+    
+    
+    .upload-form label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 10px;
+    }
+    
+    .upload-form input[type="file"] {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    }
+    
+    .custom-file-upload {
+      display: inline-block;
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .custom-file-upload:hover {
+      background-color: #0056b3;
+    }
+    
+    .upload-btn {
+      text-align: center;
+      margin-top: 20px;
+    }
+    
+    .upload-btn input[type="submit"] {
+      background-color: #28a745;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .upload-btn input[type="submit"]:hover {
+      background-color: #218838;
+    }
+    
+
+/* Style the dropdown */
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+/* Style the form submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Change the background color of the submit button on hover */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+input[type="file"] {
+  display: block;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  color: #555;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 6px 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+input[type="file"]::-webkit-file-upload-button:hover {
+  background-color: #0056b3;
+}
+
+input[type="file"]:focus {
+  outline: none;
+  border-color: #007BFF;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}

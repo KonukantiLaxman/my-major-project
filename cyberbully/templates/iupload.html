@@ -1,0 +1,19 @@
+{% extends "base1.html" %}
+
+{% block title %}image{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2 class="text-center">Upload image</h2>
+    <form action="/predict_image" method="POST" enctype="multipart/form-data">
+        <div>
+            <input type="file" id="image-upload" name="image" accept="image/*">
+        </div>
+        <br>
+        <button type="submit">Upload Image</button>
+    </form>
+    <p class="{% if text == 'The content is cyberbully free.' %}safe{% else %}unsafe{% endif %}">
+        {{ text }}
+    </p>
+</div>
+{% endblock %}
