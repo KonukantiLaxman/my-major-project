@@ -52,9 +52,9 @@ https://konukantilaxman.github.io/my-major-project/
 1) Clone & install:git clone https://github.com/KonukantiLaxman/my-major-project.git
 cd my-major-project
 
-2)  Use sample data to sanity-check
+2) Use sample data to sanity-check
 
-3)Train on your dataset
+3) Train on your dataset
 
 -Place a CSV at data/raw/dataset.csv with columns:
 
@@ -69,11 +69,17 @@ cd my-major-project
 -Use src/data.py utilities to:
 
 📊 Results:
+
 <img width="1920" height="1080" alt="Screenshot 2025-05-03 095322" src="https://github.com/user-attachments/assets/0f0d709c-24d1-405e-9b0c-436bfe30e604" />
+
 <img width="1920" height="1080" alt="Screenshot 2025-05-03 095348" src="https://github.com/user-attachments/assets/6febf033-8b54-45e8-bb82-b228dd112855" />
+
 <img width="1920" height="1080" alt="Screenshot 2025-05-03 095410" src="https://github.com/user-attachments/assets/24fcee3a-0d77-4e09-addd-1bd11ac988bc" />
+
 <img width="1920" height="1080" alt="Screenshot 2025-05-03 095603" src="https://github.com/user-attachments/assets/678d945f-9edd-4827-a232-cb9ee5583b15" />
+
 <img width="1920" height="1080" alt="Screenshot 2025-05-03 100123" src="https://github.com/user-attachments/assets/85501b92-6c71-4e6e-bdc6-b0869027b016" />
+
 <img width="1920" height="1080" alt="Screenshot 2025-05-04 210318" src="https://github.com/user-attachments/assets/e9b6eaf3-652f-4e4d-bca5-70b3c09de23a" />
 
 📚 Cite This Work:
